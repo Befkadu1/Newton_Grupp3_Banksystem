@@ -60,16 +60,17 @@ public class Test
         System.out.println(bankLogic.addSavingsAccount(11));
         System.out.println(bankLogic.addSavingsAccount(11));
         //Removing a customer
-        //System.out.println(bankLogic.removeCustomer(11));
+        //System.out.println("removed accounts " + bankLogic.removeCustomer(11));
         
         
-       // System.out.println(bankLogic.addSavingsAccount(11));
-        System.out.println(customer1.custumerAccountsList.size());
+        System.out.println(bankLogic.addSavingsAccount(11));
+        //System.out.println(customer1.custumerAccountsList.size());
 //        System.out.println("index 0 of customer 1 " + customer1.custumerAccountsList.get(2).getAccountID());
 //        System.out.println("index 1 " + customer1.custumerAccountsList.get(1).getAccountID());
 
+
         //Testing getAccount
-        System.out.println(bankLogic.getAccount(11, 1002));
+        System.out.println(bankLogic.getAccount(11, 1001));
         
         //Test deposit
         System.out.println(bankLogic.deposit(11, 1003, 100));

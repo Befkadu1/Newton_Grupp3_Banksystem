@@ -26,9 +26,15 @@ public class SavingsAccount extends Account
     super();
     }
 
+    public SavingsAccount(double balance, double interestRate, String accountType)
+    {
+        super(balance, interestRate, accountType);
+    }
+
     public SavingsAccount(String accountType, double interestRate)
     {
         super(accountType, interestRate);
+        
         this.accountID = super.getAccountID();
         
         
@@ -64,6 +70,7 @@ public class SavingsAccount extends Account
 
     }
 
+//    System.out
 //    public void CalculateInterest()
 //    {
 //        System.out.println("Balance " + getBalance()); //test
